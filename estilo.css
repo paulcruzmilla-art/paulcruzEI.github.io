@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contenedor{
+    width: 100%;
+    margin: auto;
+    
+}
+#cabecera{
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(47, 155, 243);
+}
+.nav-item{   
+    padding-left: 30px;
+}
+.dropdown-item{
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    
+}
+.row .card{
+    margin-right: 50px;
+}
+.borde{
+    width: 90%;
+    margin: auto;
+    
+}
+.nosotros{
+    display: flex;
+    border-bottom: 1px solid rgb(157, 152, 152);
+    justify-content: center;
+}
+.scrollspy-example{
+    margin-left: 20px;
+    height: 200px;       
+    overflow-y: auto;    
+    padding: 1rem;
+    border: 1px solid #ddd;
+
+}
+#accordionExample{
+    width: 90%;
+    margin: auto;
+}
+.contacto{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+form{
+    width: 60%;
+    margin-right: 30px;
+
+}
+.block{
+    display: block;
+
+}
+table{
+    margin-top: 40px;
+    margin-left: 90px;  
+    height: 20px;
+}
+.map-container {
+  width: 550px;
+  height: 450px;   /* tamaño controlado */
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.map-container iframe {
+  width: 1000px;
+  height: 300px;
+  border: 0;
+}
+.conte{
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.contee{
+    width: 80%;
+    
+    margin: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.blog{
+    width: 60%;
+}
+.tabla{
+    width: 30%;
+    padding: 15px;
+}
